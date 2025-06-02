@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pomodoro João Paulo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="timer-container">
+    <div id="timer">25:00</div>
+
+    <div class="task-buttons">
+      <button id="start-btn">✍ Começar</button>
+       <button id="pause-btn">⏸️ Pausar</button>
+      <button id="stop-btn">🙅‍♂️ Parar</button>
+      
+    </div>
+
+    <div id="task-list"></div>
+
+    <input type="text" id="new-task" placeholder="?...">
+    <button id="add-task-btn">📝 Adicionar Tarefa</button>
+
+    <div id="selected-task-name">Nenhuma Tarefa Selecionada</div>
+
+    <!-- 🔴 NOVO: Campo para música -->
+    <div class="music-container">
+      <input type="text" id="music-url" placeholder="Cole o link do YouTube aqui">
+      <button id="play-music-btn">▶️ Tocar Música</button>
+      <button id="toggle-player-btn">🙈 Ocultar Player</button>
+      
+
+      <div id="music-player"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
