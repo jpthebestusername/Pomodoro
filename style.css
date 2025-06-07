@@ -54,7 +54,7 @@ body {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
-  padding: 20px;
+  padding: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -119,8 +119,8 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   margin: 4px;
-  padding: 10px;
-  width: 250px;
+  padding: 9px;
+  width: 350px;
   background: #fff;
   color: #333;
   border-radius: 5px;
@@ -233,3 +233,19 @@ button:hover {
 #pause-btn:hover {
   background: #cc9a00;
 }
+
+
+#continue-btn {
+  background: #800080;
+  color: white;
+  font-size: 0.8em;
+  margin-left: 5px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  transition: background 0.3s ease;
+
+}
+
+
+
