@@ -28,9 +28,6 @@ Cole o link do YouTube e toque sua música favorita.
 
 Use o botão para mostrar/ocultar o player.
 
-Próximos passos
-Adicionar botão de Pausa no timer (vamos fazer agora, só aguenta aí).
-
 Como rodar localmente
 Clone o projeto.
 
